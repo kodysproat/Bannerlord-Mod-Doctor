@@ -1,0 +1,11 @@
+bin/
+obj/
+dist/
+Reports/
+HelperDllBackups/
+*.user
+*.suo
+*.log
+*.zip
+*.backup_*
+*.before_restore_*

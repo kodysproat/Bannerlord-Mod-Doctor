@@ -1,0 +1,20 @@
+Bannerlord Mod Doctor Changelog
+===============================
+
+1.0.0
+-----
+
+- Initial polished release.
+- Added outside-the-game Windows troubleshooting tool.
+- Added Mod Doctor Summary.
+- Added missing dependency checks.
+- Added duplicate module ID checks.
+- Added blocked DLL detection and fixing.
+- Added suggested load order generation.
+- Added duplicate framework DLL detection.
+- Added reversible duplicate DLL cleanup.
+- Added XML record conflict checks for mod-vs-mod conflicts.
+- Filtered out core game, DLC, and language XML noise.
+- Added duplicate DLL file name checks.
+- Added copy, save, and report folder actions.
+- Added PayPal donation button.

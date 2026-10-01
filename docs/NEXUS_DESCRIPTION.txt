@@ -1,0 +1,59 @@
+Short Description
+-----------------
+
+Bannerlord Mod Doctor is a lightweight outside-the-game troubleshooting tool that checks your Bannerlord mod setup for common problems and gives you clean, readable next steps.
+
+
+Long Description
+----------------
+
+Bannerlord Mod Doctor helps diagnose common Mount & Blade II: Bannerlord mod setup issues before you spend your whole night guessing.
+
+It is built as a portable Windows tool, not an in-game mod menu, so it can still help when Bannerlord will not launch or crashes before the main menu.
+
+Features
+--------
+
+- Checks missing dependencies
+- Finds duplicate module IDs
+- Detects Windows-blocked DLLs
+- Can fix blocked DLLs
+- Suggests a dependency-based load order
+- Finds duplicate framework DLL copies
+- Can clean safe duplicate DLLs with backup
+- Can undo DLL cleanup
+- Checks XML record conflicts between mods
+- Filters out core game, DLC, and language XML noise
+- Finds duplicate DLL file names
+- Creates clean reports you can share on Nexus or Discord
+
+How To Use
+----------
+
+1. Run BannerlordModDoctor.exe.
+2. Confirm your Modules folder.
+3. Keep Include Steam Workshop checked if you use Workshop mods.
+4. Click Check My Mods.
+5. Read the Mod Doctor Summary at the top.
+
+Recommended First Fixes
+-----------------------
+
+- Install or disable mods with missing dependencies.
+- Use Fix Blocked DLLs if blocked files are found.
+- Use Clean Duplicate DLLs only for duplicate framework DLLs the tool marks as safe.
+- Use Undo DLL Cleanup if you need to revert that cleanup.
+- Use Sort Load Order as a starting point, then follow individual mod author instructions.
+
+Donation Note
+-------------
+
+If Bannerlord Mod Doctor helped fix your setup or saved you time, donations are deeply appreciated. I am building this during a difficult season, and every bit of support helps me keep improving it for the community.
+
+PayPal:
+https://paypal.me/KodySp
+
+Disclaimer
+----------
+
+This tool catches common static setup problems. It does not replace reading mod author instructions, and it cannot guarantee detection of every runtime Harmony patch conflict.
